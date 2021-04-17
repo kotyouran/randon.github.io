@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px){
+
+.header-logo h1 img{
+    width: 50%;
+    height: 200px;
+}
+
+.left-nav {
+    display: none;
+}
+
+.right-nav{
+    height: 30px;
+}
+
+.right-nav a{
+    text-decoration: none;
+}
+
+.back{
+    height: 200px;
+}
+
+h2{
+    margin-top: 30px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.menu p{
+    font-size: 15px;
+}
+
+.access{
+    display: inline-block;
+    text-align: center;
+}
+
+.map iframe{
+    width: 350px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
