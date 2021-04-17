@@ -2,6 +2,45 @@ body{
     font-family: 游明朝;
 }
 
+@media screen and (max-width: 600px){
+        .header-wrap{
+            display: block!important;
+        }
+
+        .header-left{
+            display: none!important;
+        }
+
+        .header-right{
+            width: 100%!important;
+        }
+
+        .menu{
+            width: 30%!important;
+        }
+
+        .menu p{
+            font-size: 15px!important;
+        }
+
+        .right-nav2{
+            display: none!important;
+        }
+
+        .back{
+            display: none;
+        }
+
+        .right-nav{
+            display: none;
+        }
+    
+
+
+
+
+}
+
 .header-wrap{
     display: flex;
     background-image: url(image/haikei2_0002.png);
