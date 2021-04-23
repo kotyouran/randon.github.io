@@ -18,7 +18,7 @@
 }
 
 .back{
-    height: 200px;
+    height: 180px;
 }
 
 h2{
@@ -27,6 +27,17 @@ h2{
     font-size: 20px;
 }
 
+.menu img{
+    height: 130px;
+}
+
+span{
+    font-size: 13px;
+}
+
+p{
+    font-size: 20px;
+}
 .menu p{
     font-size: 15px;
 }
