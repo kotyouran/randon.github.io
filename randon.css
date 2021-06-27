@@ -1,10 +1,11 @@
 body{
     font-family: 游明朝;
+    background-image: url(image/haikei2_0002.png);
 }
 
 .header-wrap{
     display: flex;
-    background-image: url(image/haikei2_0002.png);
+    
 }
 
 .header-left{
@@ -70,6 +71,15 @@ body{
     background-image: url(image/haikei2_0002.png);
     justify-content: center;
     margin-top: -20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-p {
+    font-size: 30px;
+    float: right;
+    margin-top: -150px;
+    margin-right: 100px;
 }
 
 h2{
@@ -106,12 +116,23 @@ p {
     margin-top: -5px;
 }
 
+.tennai {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+
+}
+
+.tennai img {
+    width: 30%;
+    margin: 5px;
+}
+
 .access{
     
     display: flex;
-    justify-content: center;
     background-image: url(image/haikei2_0002.png);
-    margin: -20px 3% 0px;    
+    margin: 20px 3% 0px;    
     padding-bottom: 50px;
 }
 
@@ -122,24 +143,27 @@ p {
 }
 
 .map{
-    width: 30%;
-    padding-right: 50px;
+    width: 50%;
+    padding: 0 50px;
 }
 
+.map-text h3{
+    margin: 10px 0 5px;
+}
 .insta_btn {
     position: absolute;
-    top: -101px;
-    right: 40px;
-    font-size: 50px;
+    top: -120px;
+    right: 300px;
+    font-size: 30px;
     margin-left: 10px;
     color: #f80a1e;
 }
 
 .twitter_btn{
     position: absolute;
-    top: -100px;
-    right: 0px;
-    font-size: 50px;
+    top: -120px;
+    right: 230px;
+    font-size: 30px;
     margin-left: 10px;
     color: #0b7ce6;
 }
