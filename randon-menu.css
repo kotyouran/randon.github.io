@@ -4,35 +4,25 @@ body{
 }
 
 @media screen and (max-width: 600px){
-    body {
-        margin: 0 auto;
-        padding: 0 auto;
-        max-width: 375px;
-        background: url(image/haikei2_0002.png);
-    }
-      
-
-        
-
-        .header-left img {
-             width: 60%!important;
-             margin-left: 20px;
-             height: 250px!important;
+        body {
+            margin: 0 auto;
+            padding: 0 auto;
+            max-width: 375px;
         }
 
-        .left-nav li {
-            margin-top: -60px;
-            margin-left: 10px;
-            font-size: 22px!important;
+        .header-wrap {
+            flex-direction: column;
+            width: 100%;
         }
+
+        .header-left {
+            width: 100%!important;
+        }     
 
         .header-right {
-            margin-right: 10px;
-            margin-left: -10px;
+            width: 100%!important;
         }
-        .header-right img {
-            margin-top: 30px;
-        }
+
 
         h2{
             text-align: center;
@@ -49,80 +39,47 @@ body{
         .menu p{
             font-size: 15px!important;
         }
-
-        
-
+}
 
 
 
+h1 {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, red, yellow,red);
+    font-size: 40px;
+    line-height: 1em;
+}
 
+h1 span {
+    font-size: 30px;
 }
 
 .header-wrap{
     display: flex;
+    justify-content: center;
     background-image: url(image/haikei2_0002.png);
 }
 
-.header-left{
-    width:30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.header-wrap img {
+    width: 38%;
+    margin: 5px;
+}
+
+h2{
     text-align: center;
-}
-.header-logo h1 img{
-    width: 25%;
-    height: 330px;
-}
-
-.header-left a{
-    text-decoration: none;
-    color: black;
-}
-.header-left ul{
-    list-style: none;
-    writing-mode: vertical-rl;
-    letter-spacing: 0.3em;
-    text-align: left;
-    line-height: 2;
-    margin: 0 auto;
-    
-}
-
-.header-left li{
-    font-family: "游明朝";
-    font-size: 30px;
-    padding-left: 5px;
-    
-}
-
-.header-right{
-    width: 70%;
-}
-
-.header-right img{
-    width: 100%;
-    z-index: 100;
-}
-
-.right-nav{
-    height: 70px;
-    background: rgba(15, 150, 3, 0.5);
-    margin-left: 10%;
-}
-
-.back{
-    background:rgba(243, 133, 8, 0.5);
-    width: 50%;
-    height: 650px;
-    transition: 0.3;
-    margin-top: -45%;
-    margin-left: 23%;
+    background-color: rgb(187, 4, 4);
+    color: white;
+    margin: 100px 10% 20px;
+    padding:10px 0;
+    border-radius: 10px;
 }
 
 .menu-wrap{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-image: url(image/haikei2_0002.png);
     padding-left: 20px;
 }
@@ -146,10 +103,10 @@ body{
     margin-top: -5px;  
 }
 
-.right-nav2{
-    height: 70px;
-    background: rgba(15, 150, 3, 0.5);
-    margin-left: 30%;
-    margin-top: -90px;
+h3 {
+    font-size: 30px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -30px;
 }
 
